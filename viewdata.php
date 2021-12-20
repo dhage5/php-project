@@ -118,7 +118,7 @@ if (!$con) {
 				</td>
 				
 				<td>	
-					<a href="deletion.php?delete=<?php echo $row['id']; ?>&table=test&page=viewanandvan.php" onclick="return confirm('Are you sure to delete this record?')" class="btn btn-danger">Delete</a>
+					<a href="deletion.php?delete=<?php echo $row['id']; ?>&table=test&page=viewdata.php" onclick="return confirm('Are you sure to delete this record?')" class="btn btn-danger">Delete</a>
 				</td>
 			</tr>
 			         <?php // endforeach; ?>
