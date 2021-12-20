@@ -55,7 +55,7 @@ $result = $con->query($sql);
   
 // Display data on web page
 while($row = mysqli_fetch_assoc($result)) {
-    echo "Total Count is ". $row['count(*)'];
+    echo "Total User Count is ". $row['count(*)'];
     echo "<br />";
 }
       ?>      
